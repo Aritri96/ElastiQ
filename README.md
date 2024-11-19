@@ -38,8 +38,8 @@ The coordinates of the strained system must be provided in the same order as the
 - cd ElastiQ
 - Step 2: Install the Tool
 
--- 1. Install the tool using pip in "editable" mode:
--- pip install -e .
+- 1. Install the tool using pip in "editable" mode:
+- pip install -e .
 - 2. If successful, you should see a message indicating that elastiq has been installed.
 
 ## Run ElastiQ:
@@ -49,6 +49,6 @@ The coordinates of the strained system must be provided in the same order as the
 # Troubleshooting
 
 -1. Ensure it is installed correctly using:
-   --  pip show elastiq
+   -  pip show elastiq
 - 2. If installed but not working, add the Scripts directory to your PATH:
---C:\Users\<Your Username>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
+-C:\Users\<Your Username>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
