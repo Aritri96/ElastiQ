@@ -1,6 +1,6 @@
 # ElastiQ
 
-**ElastiQ** is a Python-based tool for calculating elastic constants of materials using stress and strained coordinate data obtained from DFT calculations.
+**ElastiQ** is a Python-based tool for calculating elastic constants of materials using stress and strained coordinate data obtained from DFT calculations with out consedering Cauchy-Born rule. See paper ....
 
 ---
 
