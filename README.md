@@ -7,13 +7,13 @@ ElastiQ is a Python-based tool for calculating elastic constants of materials us
 # Input Requirements
 ## Stress Data
 Provide stress data in the following format
-strain type=         strain_x	strain_y	strain_z	strain_yz	strain_xz	strain_xy	strain_neg_x	strain_neg_y	strain_neg_z	strain_neg_yz	strain_neg_xz	strain_neg_xy
-stress component sxx=[6.86	   3.6	    3.6	    -0.03	      -0.03	    -0.03	    -7.16	        -3.7	        -3.7	          -0.03	       -0.03	        -0.03];
-stress component syy=[3.61	   6.86	     3.6	   -0.03	    -0.03	    -0.03	    -3.69	         -7.16	       -3.7	          -0.03	        -0.03	        -0.03];
-stress component szz=[3.61	   3.6	    6.86	    -0.03	    -0.04	    -0.03	     -3.69	        -3.7	        -7.16	        -0.03	        -0.03	        -0.03];
-stress component syz=[0.00	    0	        0	        2.26	    0	        0	          0	            0	            0	            -2.26	        0	          0.00];
-stress component sxz=[0.00	     0	      0	        0	        2.26	     0	        0	            0	            0	            0	          -2.26        	0.00];
-stress component sxy=[0.00	      0	      0	        0	        0	      2.26	        0	            0	            0	            0	            0	          -2.26];
+- strain type=         strain_x	strain_y	strain_z	strain_yz	strain_xz	strain_xy	strain_neg_x	strain_neg_y	strain_neg_z	strain_neg_yz	strain_neg_xz	strain_neg_xy
+- stress component sxx=[6.86	   3.6	    3.6	    -0.03	      -0.03	    -0.03	    -7.16	        -3.7	        -3.7	          -0.03	       -0.03	        -0.03];
+- stress component syy=[3.61	   6.86	     3.6	   -0.03	    -0.03	    -0.03	    -3.69	         -7.16	       -3.7	          -0.03	        -0.03	        -0.03];
+- stress component szz=[3.61	   3.6	    6.86	    -0.03	    -0.04	    -0.03	     -3.69	        -3.7	        -7.16	        -0.03	        -0.03	        -0.03];
+- stress component syz=[0.00	    0	        0	        2.26	    0	        0	          0	            0	            0	            -2.26	        0	          0.00];
+- stress component sxz=[0.00	     0	      0	        0	        2.26	     0	        0	            0	            0	            0	          -2.26        	0.00];
+- stress component sxy=[0.00	      0	      0	        0	        0	      2.26	        0	            0	            0	            0	            0	          -2.26];
 
 Notes:
 Each row corresponds to the stress tensor components under a specific strain
