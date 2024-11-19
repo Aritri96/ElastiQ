@@ -21,35 +21,34 @@ Each col corresponds to the stress tensor components under a specific strain.
 ## Strained Coordinates
 The coordinates of the strained system must be provided in the same order as the stress values.
 ### Example:
-If the first column of the stress data corresponds to strain_x, when the code prompts for strained system coordinates, you should provide the coordinates for the system strained along the x-direction first.
-Similarly, ensure all subsequent coordinates are in the order of their corresponding stress data.
+- If the first column of the stress data corresponds to strain_x, when the code prompts for strained system coordinates, you should provide the coordinates for the system strained along the x-direction first.
+- Similarly, ensure all subsequent coordinates are in the order of their corresponding stress data.
 
 # Usage Example
 ## Prepare Input Files:
-stress.txt: Contains stress tensor components obtained from DFT (see above format).
-strain_x.txt, strain_y.txt, ...: Coordinates of the system under different strains.
+- stress.txt: Contains stress tensor components obtained from DFT (see above format).
+- strain_x.txt, strain_y.txt, ...: Coordinates of the system under different strains.
 
 # Installation Instructions
 ##Step 1: Clone the Repository
-Open a terminal (or Command Prompt) and run:
-git clone https://github.com/Aritri96/ElastiQ
+- Open a terminal (or Command Prompt) and run:
+- git clone https://github.com/Aritri96/ElastiQ
 
 ## Navigate to the project directory:
-cd ElastiQ
-Step 2: Install the Tool
+- cd ElastiQ
+- Step 2: Install the Tool
 
-1. Install the tool using pip in "editable" mode:
-pip install -e .
-2. If successful, you should see a message indicating that elastiq has been installed.
+-- 1. Install the tool using pip in "editable" mode:
+-- pip install -e .
+- 2. If successful, you should see a message indicating that elastiq has been installed.
 
 ## Run ElastiQ:
-1. Open a terminal and type:
-elastiq
+- 1. Open a terminal and type:
+- elastiq
 
 # Troubleshooting
-If elastiq is not recognized as a command:
 
- ## 1. Ensure it is installed correctly using:
-    pip show elastiq
- ## 2. If installed but not working, add the Scripts directory to your PATH:
-C:\Users\<Your Username>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
+-1. Ensure it is installed correctly using:
+   --  pip show elastiq
+- 2. If installed but not working, add the Scripts directory to your PATH:
+--C:\Users\<Your Username>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
