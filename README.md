@@ -32,7 +32,7 @@ strain_x.txt, strain_y.txt, ...: Coordinates of the system under different strai
 # Installation Instructions
 ##Step 1: Clone the Repository
 Open a terminal (or Command Prompt) and run:
-git clone https://github.com/yourusername/ElastiQ.git
+git clone https://github.com/Aritri96/ElastiQ
 
 ## Navigate to the project directory:
 cd ElastiQ
