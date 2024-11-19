@@ -3,7 +3,7 @@ ElastiQ is a Python-based tool for calculating elastic constants of materials us
 
 ## Features
 - Supports cubic and hexagonal material symmetries.
-- Calculates elastic constants like C11, C12, C44, and more.
+- Calculates single crystal elastic constants.
 # Input Requirements
 ## Stress Data
 Provide stress data in the following format
@@ -16,7 +16,7 @@ Provide stress data in the following format
 - stress component sxy=[0.00	      0	      0	        0	        0	      2.26	        0	            0	            0	            0	            0	          -2.26];
 
 Notes:
-Each row corresponds to the stress tensor components under a specific strain
+Each col corresponds to the stress tensor components under a specific strain.
 
 ## Strained Coordinates
 The coordinates of the strained system must be provided in the same order as the stress values.
