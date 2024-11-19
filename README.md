@@ -4,8 +4,8 @@ ElastiQ is a Python-based tool for calculating elastic constants of materials us
 ## Features
 - Supports cubic and hexagonal material symmetries.
 - Calculates elastic constants like C11, C12, C44, and more.
-## Input Requirements
-#Stress Data
+# Input Requirements
+## Stress Data
 Provide stress data in the following format
 strain type=         strain_x	strain_y	strain_z	strain_yz	strain_xz	strain_xy	strain_neg_x	strain_neg_y	strain_neg_z	strain_neg_yz	strain_neg_xz	strain_neg_xy
 stress component sxx=[6.86	   3.6	    3.6	    -0.03	      -0.03	    -0.03	    -7.16	        -3.7	        -3.7	          -0.03	       -0.03	        -0.03];
@@ -20,21 +20,21 @@ Each row corresponds to the stress tensor components under a specific strain
 
 ## Strained Coordinates
 The coordinates of the strained system must be provided in the same order as the stress values.
-# Example:
+### Example:
 If the first column of the stress data corresponds to strain_x, when the code prompts for strained system coordinates, you should provide the coordinates for the system strained along the x-direction first.
 Similarly, ensure all subsequent coordinates are in the order of their corresponding stress data.
 
-## Usage Example
-# Prepare Input Files:
+# Usage Example
+## Prepare Input Files:
 stress.txt: Contains stress tensor components obtained from DFT (see above format).
 strain_x.txt, strain_y.txt, ...: Coordinates of the system under different strains.
 
-## Installation Instructions
-Step 1: Clone the Repository
+# Installation Instructions
+##Step 1: Clone the Repository
 Open a terminal (or Command Prompt) and run:
 git clone https://github.com/yourusername/ElastiQ.git
 
-# Navigate to the project directory:
+## Navigate to the project directory:
 cd ElastiQ
 Step 2: Install the Tool
 
@@ -46,10 +46,10 @@ pip install -e .
 1. Open a terminal and type:
 elastiq
 
-## Troubleshooting
+# Troubleshooting
 If elastiq is not recognized as a command:
 
-  1. Ensure it is installed correctly using:
+ ## 1. Ensure it is installed correctly using:
     pip show elastiq
-  2. If installed but not working, add the Scripts directory to your PATH:
+ ## 2. If installed but not working, add the Scripts directory to your PATH:
 C:\Users\<Your Username>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
