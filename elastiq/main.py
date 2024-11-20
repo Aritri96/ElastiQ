@@ -25,25 +25,30 @@ def main():
         "triclinic": "triclinic.py"
     }
 
+    # Get script directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    stress_strain_path = os.path.join(script_dir, "stress_strain.py")
+    symmetry_script_path = os.path.join(script_dir, script_map[symmetry])
+
     # Check if stress_strain.py exists
-    if not os.path.exists("stress_strain.py"):
-        print("Error: stress_strain.py not found in the current directory.")
+    if not os.path.exists(stress_strain_path):
+        print("Error: stress_strain.py not found in the script directory.")
         return
 
     try:
         # Run the stress_strain.py script
         print("Running stress_strain.py...")
-        subprocess.run(["python", "stress_strain.py"], check=True)
+        subprocess.run(["python", stress_strain_path], check=True)
         print("stress_strain.py completed successfully.\n")
 
         # Check if symmetry-specific script exists
-        if not os.path.exists(script_map[symmetry]):
-            print(f"Error: {script_map[symmetry]} not found in the current directory.")
+        if not os.path.exists(symmetry_script_path):
+            print(f"Error: {script_map[symmetry]} not found in the script directory.")
             return
 
         # Run the appropriate script based on symmetry
         print(f"Running {script_map[symmetry]} for {symmetry.capitalize()} symmetry...")
-        subprocess.run(["python", script_map[symmetry]], check=True)
+        subprocess.run(["python", symmetry_script_path], check=True)
         print(f"{script_map[symmetry]} completed successfully.")
 
     except subprocess.CalledProcessError as e:
