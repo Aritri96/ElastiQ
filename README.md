@@ -1,12 +1,12 @@
 # ElastiQ
 
-**ElastiQ** is a Python-based tool for calculating elastic constants of materials using stress and strained coordinate data obtained from DFT calculations with out consedering Cauchy-Born rule. See paper ....
+**ElastiQ** is a Python-based tool for calculating elastic constants of materials using stress and strained coordinate data obtained from DFT calculations without consedering Cauchy-Born rule. See paper ....
 
 ---
 
 ## Features
 
-- Supports **cubic** and **hexagonal** material symmetries.
+- Supports **Cubic**/**Hexagonal**/**Trigonal**/**Tetragonal_T1**/**Tetragonal_T2**/**Orthorhombic**/**Monoclinic**/**Triclinic** material symmetries.
 - Calculates **single crystal elastic constants** directly from stress-strain data.
 
 ---
@@ -57,12 +57,10 @@ The coordinates of the strained system must be provided in the same order as the
 - 2. If successful, you should see a message indicating that elastiq has been installed.
 
 ## Run ElastiQ:
-- 1. Open a terminal and type:
-- elastiq
+- Open a terminal and type: elastiq
 
 # Troubleshooting
 
--1. Ensure it is installed correctly using:
-   -  pip show elastiq
+- 1. Ensure it is installed correctly using: pip show elastiq
 - 2. If installed but not working, add the Scripts directory to your PATH:
 -C:\Users\<Your Username>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
