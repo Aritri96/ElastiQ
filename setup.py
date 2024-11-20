@@ -13,6 +13,6 @@ setup(
         'numpy',
     ],
     description="A tool for calculating elastic constants of materials.",
-    author="Your Name",
+    author="Roy",
     license="NA",
 )
