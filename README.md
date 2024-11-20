@@ -44,16 +44,16 @@ The coordinates of the strained system must be provided in the same order as the
 - strain_x.txt, strain_y.txt, ...: Coordinates of the system under different strains.
 
 # Installation Instructions
-##Step 1: Clone the Repository
+## Step 1: Clone the Repository
 - Open a terminal (or Command Prompt) and run:
 - git clone https://github.com/Aritri96/ElastiQ
 
-## Navigate to the project directory:
+### Navigate to the project directory:
 - cd ElastiQ
-- Step 2: Install the Tool
+## Step 2: Install the Tool
 
- 1. Install the tool using pip in "editable" mode:
-- pip install -e .
+ - 1. Install the tool using pip in "editable" mode:
+ pip install -e .
 - 2. If successful, you should see a message indicating that elastiq has been installed.
 
 ## Run ElastiQ:
